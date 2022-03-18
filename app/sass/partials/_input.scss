@@ -1,0 +1,18 @@
+.input-group {
+  background-color: $input-color;
+  padding: 4px 7px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  // width: 80%;
+  .input {
+    border: none;
+    background-color: inherit;
+    width: 70%;
+    outline: none;
+  }
+  span {
+    color: $text-color;
+    padding-top: 4px;
+  }
+}

@@ -1,0 +1,28 @@
+$primary-color: hsl(172, 67%, 45%);
+$dark-green: hsl(183, 100%, 15%);
+$text-color: hsl(186, 14%, 43%);
+$input-color: hsl(185, 41%, 84%);
+$tablette: 600px;
+$desktop: 900px;
+$border-radius: 10px;
+@mixin tablette {
+  @media (min-width: $tablette) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+body {
+  font-size: 1.3rem;
+  font-family: "Space Mono", monospace;
+}
+input,
+button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 24px;
+}

@@ -1,0 +1,16 @@
+.btn {
+  padding: 4px 2.4rem;
+  border: 0;
+  border-radius: 6px;
+}
+.btn--primary {
+  color: white;
+  background-color: hsl(183, 100%, 15%);
+}
+.btn--secondary {
+  color: hsl(183, 100%, 15%);
+  background-color: $primary-color;
+}
+.btn--accent {
+  color: rgb(184, 184, 184);
+}

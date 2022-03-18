@@ -1,0 +1,56 @@
+body {
+  font-size: 1.3rem;
+  font-family: "Space Mono", monospace;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.input-group {
+  background-color: #c5e4e7;
+  padding: 4px 7px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input-group .input {
+  border: none;
+  background-color: inherit;
+  width: 70%;
+  outline: none;
+}
+
+.input-group span {
+  color: #5e7a7d;
+  padding-top: 4px;
+}
+
+.btn {
+  padding: 4px 2.4rem;
+  border: 0;
+  border-radius: 6px;
+}
+
+.btn--primary {
+  color: white;
+  background-color: #00494d;
+}
+
+.btn--secondary {
+  color: #00494d;
+  background-color: #26c0ab;
+}
+
+.btn--accent {
+  color: #b8b8b8;
+}
+/*# sourceMappingURL=main.css.map */

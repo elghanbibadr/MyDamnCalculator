@@ -1,0 +1,8 @@
+@include desktop {
+  .grid {
+    display: grid;
+  }
+  .grid--cls2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

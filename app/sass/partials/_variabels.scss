@@ -16,13 +16,3 @@ $border-radius: 10px;
     @content;
   }
 }
-body {
-  font-size: 1.3rem;
-  font-family: "Space Mono", monospace;
-}
-input,
-button {
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 24px;
-}

@@ -1,0 +1,24 @@
+*,
+::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Space Mono", monospace;
+  transform: scale(0.7);
+}
+input,
+button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(172, 169, 169);
+}

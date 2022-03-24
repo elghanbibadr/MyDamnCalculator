@@ -6,6 +6,10 @@
 .btn--primary {
   color: white;
   background-color: hsl(183, 100%, 15%);
+  transition: 0.6s;
+  &:hover {
+    background-color: $primary-color;
+  }
 }
 .btn--secondary {
   color: hsl(183, 100%, 15%);

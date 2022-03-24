@@ -1,3 +1,73 @@
 @import "../sass/partials/variabels";
+@import "../sass/partials/generals";
 @import "../sass/partials/input";
 @import "../sass/partials/btns";
+@import "../sass/partials/grid";
+body {
+  @include desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+.container {
+  background-color: #f5f4f4;
+  padding: 1rem;
+  border-radius: $border-radius;
+  margin: 1rem;
+  @include desktop {
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+.bill {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: $border-radius;
+  .input-group {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-block: 10px;
+  }
+  &__btns {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    @include tablette {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+.amount {
+  background-color: $dark-green;
+  position: relative;
+  margin: 1rem;
+  border-radius: $border-radius;
+  padding: 1rem;
+  &__box1,
+  &__box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1.5rem;
+  }
+  h4 {
+    color: white;
+  }
+  h2 {
+    color: $primary-color;
+    margin-top: 0.4rem;
+  }
+  &__btn {
+    width: 100%;
+  }
+  @include desktop {
+    &__btn {
+      width: 90%;
+      position: absolute;
+      bottom: 0;
+      margin: 2rem 1rem;
+    }
+  }
+}

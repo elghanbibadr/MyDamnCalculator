@@ -1,0 +1,157 @@
+*,
+::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Space Mono", monospace;
+  transform: scale(0.7);
+}
+
+input,
+button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+p {
+  color: #aca9a9;
+}
+
+.input-group {
+  background-color: #c5e4e7;
+  padding: 4px 7px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-group .input {
+  border: none;
+  background-color: inherit;
+  width: 90%;
+  outline: none;
+}
+.input-group input::-webkit-outer-spin-button,
+.input-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-group span {
+  color: #5e7a7d;
+  padding-top: 4px;
+}
+
+.btn {
+  padding: 4px 2.4rem;
+  border: 0;
+  border-radius: 6px;
+}
+
+.btn--primary {
+  color: white;
+  background-color: #00494d;
+  transition: 0.6s;
+}
+.btn--primary:hover {
+  background-color: #26c0ab;
+}
+
+.btn--secondary {
+  color: #00494d;
+  background-color: #26c0ab;
+}
+
+.btn--accent {
+  color: #b8b8b8;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    display: grid;
+  }
+
+  .grid--cls2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+.container {
+  background-color: #f5f4f4;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+@media (min-width: 900px) {
+  .container {
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+
+.bill {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.bill .input-group {
+  margin-bottom: 2rem;
+}
+.bill p {
+  margin-block: 10px;
+}
+.bill__btns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 600px) {
+  .bill__btns {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.amount {
+  background-color: #00494d;
+  position: relative;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.amount__box1, .amount__box2 {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1.5rem;
+}
+.amount h4 {
+  color: white;
+}
+.amount h2 {
+  color: #26c0ab;
+  margin-top: 0.4rem;
+}
+.amount__btn {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .amount__btn {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    margin: 2rem 1rem;
+  }
+}
+/*# sourceMappingURL=index.bffc8ef2.css.map */

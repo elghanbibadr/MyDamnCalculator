@@ -21,7 +21,7 @@ tipBtns.forEach(btn=>{
   function updateAmountValue(){
      if (numberOfPeople.value==0) return;
    
-         total.textContent=(inputBill.value/numberOfPeople.value)+ parseInt(tipAmount.textContent); 
+      Math.round(total.textContent=(inputBill.value/numberOfPeople.value)+ parseInt(tipAmount.textContent)); 
    }
    // reset
 
